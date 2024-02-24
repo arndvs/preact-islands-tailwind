@@ -118,6 +118,7 @@ createIslandWebComponent('${styleTarget}', YourComponent).render({
           },
         },
         'css-loader',
+        'postcss-loader',
       ],
     }
   })
